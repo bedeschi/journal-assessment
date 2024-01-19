@@ -1,0 +1,10 @@
+{
+  "/api": {
+    "target": "https://journalapi.qa.un.org",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": "/DataServices/Documents/DailyList"
+    }
+  }
+}
